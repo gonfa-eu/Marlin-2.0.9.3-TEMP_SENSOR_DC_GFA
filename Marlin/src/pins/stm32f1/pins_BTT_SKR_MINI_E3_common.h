@@ -91,7 +91,12 @@
 //
 // Temperature Sensors
 //
-#define TEMP_0_PIN                          PA0   // Analog Input "TH0"
+
+#define TEMP_0_CS_PIN                       PA0   // TEMP_0_PIN
+#define TEMP_0_PIN                          PC3   // TH0
+//#define TEMP_0_PIN                        PA2  //
+//#define TEMP_0_PIN                          PA0   // Analog Input "TH0"
+#define TEMP_CHAMBER_PIN                    PA0
 #define TEMP_BED_PIN                        PC3   // Analog Input "TB0"
 
 //
